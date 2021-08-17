@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalProjects/static/css/main.c571dc62.chunk.css",
+    "main.css": "/PersonalProjects/static/css/main.5a072ad8.chunk.css",
     "main.js": "/PersonalProjects/static/js/main.9bc4a1c7.chunk.js",
     "main.js.map": "/PersonalProjects/static/js/main.9bc4a1c7.chunk.js.map",
     "runtime-main.js": "/PersonalProjects/static/js/runtime-main.54c120ed.js",
@@ -10,7 +10,7 @@
     "static/js/3.bc53d935.chunk.js": "/PersonalProjects/static/js/3.bc53d935.chunk.js",
     "static/js/3.bc53d935.chunk.js.map": "/PersonalProjects/static/js/3.bc53d935.chunk.js.map",
     "index.html": "/PersonalProjects/index.html",
-    "static/css/main.c571dc62.chunk.css.map": "/PersonalProjects/static/css/main.c571dc62.chunk.css.map",
+    "static/css/main.5a072ad8.chunk.css.map": "/PersonalProjects/static/css/main.5a072ad8.chunk.css.map",
     "static/js/2.55e4dbfd.chunk.js.LICENSE.txt": "/PersonalProjects/static/js/2.55e4dbfd.chunk.js.LICENSE.txt",
     "static/media/artodoB.4d9a215b.gif": "/PersonalProjects/static/media/artodoB.4d9a215b.gif",
     "static/media/artodoW.35b13216.gif": "/PersonalProjects/static/media/artodoW.35b13216.gif",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.54c120ed.js",
     "static/js/2.55e4dbfd.chunk.js",
-    "static/css/main.c571dc62.chunk.css",
+    "static/css/main.5a072ad8.chunk.css",
     "static/js/main.9bc4a1c7.chunk.js"
   ]
 }
