@@ -135,6 +135,12 @@
       top:0;
       text-align: center;
   }
+     .titleBar{
+         justify-content: center;
+     }
+     .bar{
+    justify-content: center;
+}
      artodoimg img{
          width:50%
      }
@@ -163,9 +169,18 @@
      }
 }
 @media (max-width: 500px){
+    .title {
+      font-size: 18pt;
+      top:0;
+      text-align: center;
+  }
     .br{
         font-size: 24pt;
     }
+
+.bar > *{
+    font-size: 12px;
+}
 }
 
 
