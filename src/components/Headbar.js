@@ -20,7 +20,7 @@ const Headbar = () => {
                     CURRENT
             </Link>
             <Link className="linkStyle" to={"/justforfun"}>
-                    JUST FOR FUN
+                    FUN IDEAS
             </Link>
         </div>
     </div>
