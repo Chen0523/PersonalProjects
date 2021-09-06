@@ -10,7 +10,7 @@ const Headbar = () => {
   }, []);
   return (
     <div className="headbar">
-        <div className = "titleBar">
+        <div className = "titleBar n">
             <div className = "title">
                 PERSONAL PROJECTS</div>
             {/*<div className = "chen">CHEN YANG</div>*/}
