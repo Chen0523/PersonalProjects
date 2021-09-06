@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73266f21-0d9e-48e4-a2d9-e3f48cff0bbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Headbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Headbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/justForFun.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/justForFun.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -231,12 +230,12 @@
       <workItem from="1628687336671" duration="1193000" />
       <workItem from="1629040665207" duration="10317000" />
       <workItem from="1629106043448" duration="28555000" />
-      <workItem from="1630839278684" duration="5167000" />
+      <workItem from="1630839278684" duration="5762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45232000" />
+    <option name="totallyTimeSpent" value="45827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1126" extended-state="6" />
