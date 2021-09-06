@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  /*background: #F2EFEB;*/
+  /*background: #F2F2F2;*/
+  /*background:#F8FBF8;*/
+  --titleFont: 'Nanum Myeongjo', serif;
+  --mainFont: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  --fblack:#050203;
+  --fgrey: #A6A297;
+  background: #f1f1f1;
+  padding: 0 16vw;
+
+
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: inherit;
+  font-style: normal;
+  letter-spacing: 0.02rem;
+}
+.linkStyle:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  color: var(--pblack);
+  border-color: var(--pline);
+
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+@media (max-width: 1500px) {
+  .App {
+    padding: 0 10%;
+  }
+}
+@media (max-width: 700px) {
+  .App {
+    padding: 0 5%;
+  }
+}
+
+
