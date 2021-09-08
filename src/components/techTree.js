@@ -1,52 +1,107 @@
-import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useState,useRef, useEffect,useCallback } from "react";
 import "./components.css";
-import Coocbooc from "../img/coocbooc.png";
-import Tech from "../img/tech.png";
+import Tree from 'react-d3-tree';
+
+const useCenteredTree = (defaultTranslate = { x: 0, y: 0 }) => {
+  const [translate, setTranslate] = useState(defaultTranslate);
+  const containerRef = useCallback((containerElem) => {
+    if (containerElem !== null) {
+      const { width, height } = containerElem.getBoundingClientRect();
+      setTranslate({ x: width / 2, y: 50 });
+    }
+  }, []);
+  return [translate, containerRef];
+};
 
 const TechTree = () => {
+    const [branch, setBranch] = useState("Starter");
+    const [translate, containerRef] = useCenteredTree();
+    const orgChart = {
+      name: 'Web Development',
+      children: [
+        {
+          name: 'Backend',
+          attributes: {
+            department: 'Production',
+          },
+          children: [
+            {
+              name: 'Foreman',
+              attributes: {
+                department: 'Fabrication',
+              },
+              children: [
+                {
+                  name: 'Worker',
+                },
+              ],
+            },
+            {
+              name: 'Foreman',
+              attributes: {
+                department: 'Assembly',
+              },
+              children: [
+                {
+                  name: 'Worker',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: 'Frontend',
+          attributes: {
+            department: 'Production',
+          },
+          children: [
+            {
+              name: 'CSS',
+              attributes: {
+                department: 'X',
+              },
+              children: [
+                {
+                  name: 'Worker',
+                },
+              ],
+            },
+            {
+              name: 'HTML',
 
-  return (
-    <div className="current_container">
-        <div className = "img1">  <img src={Tech} alt=" Book with Daly Eggs Illustration"></img></div>
-        <div className ="des1">
-            <div className = "br">TechTree</div>
-            Status: In development. Demo can be found here
-            <ul>Persona:
-                <li> People who wants to learn new skills in their free time and don't know where to start with</li>
-                <li> Young professional who wants to visualize their skills as a tech-tree</li>
-            </ul>
-            <ul >Goal:
-                <li>A website where user can find the overview of the study routine for a certain skill such as web development and graphic design</li>
-            </ul>
 
-        </div>
-        <div className = "img2">
-            <img src={Coocbooc} alt=" Book with Daly Eggs Illustration"></img>
-        </div>
-        <div className ="des2">
-            <div className = "br">COOCBOOC</div>
-            Status: Online from Aug 2020 - Jan 2021. Currently closed.
+            },
+          ],
+        },
+      ],
+    };
+    const treeZoomable = false;
 
-            <ul >Persona:
-                <li>Young workers who want to organize themed movie evening with snacks from the movie.</li>
-                <li>Moms who want to prepare some interesting food for the kids</li>
-                <li>Food bloggers who like to get inspired and reproduce the food in the books/movies.</li>
-            </ul>
-            <ul >Goal:
-                <li>A website where user can search recipes from a certain book/movie or just get inspired by looking around.
-                    The users can also upload their own recipes after a quick reigsteration</li>
-            </ul>
-            <ul >Personal Goal:
-            <li> To learn the skills of full-stack web-development.</li>
-            </ul>
-            <ul>Technology used:
-            <li> React, React Hooks, CSS, AWS Cloud, AWS Amplify, GraphQL, Facebook login, Google analytics, Adobe Illustrator,
-            Design thinking, Graphic design</li>
-            </ul>
+    return (
+        <div >
+            <button onClick={e=>setBranch("NonStarter")}>NonStarter</button>
+            <button onClick={e=>setBranch("Starter")}>Starter</button>
+            <div className = "current_container" ref ={containerRef}>
+            {branch === "Starter" ? (
+                <div id="treeWrapper" className = "treeWrapper">
+                    <Tree
+                          data={orgChart}
+                          translate = {translate}
+                          rootNodeClassName="node__root"
+                          branchNodeClassName="node__branch"
+                          leafNodeClassName="node__leaf"
+                          orientation = "vertical"
+                          pathFunction = "elbow"
+                          zoomable ={false} />
+                </div>
+                ) : (
+                    <div>
+                        Nonstarter
+                    </div>
+            )}
+            </div>
         </div>
-    </div>
-  );
+    );
 };
 export default TechTree;
 

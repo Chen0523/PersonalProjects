@@ -1,25 +1,28 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./components.css";
+import { useLocation } from 'react-router-dom';
+
 // import Gallery from "./gallery";
 
 
 const Headbar = () => {
+    const loc = useLocation() ;
+    const curPath  = loc.pathname;
   useEffect(() => {
     window.scrollTo(0, 0);
+
   }, []);
   return (
     <div className="headbar">
-        <div className = "titleBar">
             <div className = "title">
                 PERSONAL PROJECTS</div>
             {/*<div className = "chen">CHEN YANG</div>*/}
-        </div>
         <div className="bar">
-            <Link className="linkStyle" to={"/"}>
+            <Link className={curPath === "/"?"chosen":"linkStyle notChosen"} to={"/"}>
                     CURRENT
             </Link>
-            <Link className="linkStyle" to={"/justforfun"}>
+            <Link className={curPath !== "/"?"chosen":"linkStyle notChosen"} to={"/funIdeas"}>
                     FUN IDEAS
             </Link>
         </div>

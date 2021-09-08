@@ -10,7 +10,7 @@ export default function Routes() {
   return (
     <Switch>
       <Route exact path="/" component={Current}></Route>
-      <Route exact path="/justforfun" component={JustForFun}></Route>
+      <Route exact path="/funIdeas" component={JustForFun}></Route>
       <Route exact path="/techTreeDemo" component={TechTree}></Route>
       <Route>
         <div>Sorry Captain 404 not found</div>

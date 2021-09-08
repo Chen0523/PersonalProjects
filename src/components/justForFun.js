@@ -15,11 +15,11 @@ const JustForFun = () => {
         <div className ="des">
             <div className = "br">FirstAid for Self-help</div>
             <ul>Goal:
-                <li> The correct first reaction in an emergency situation, especially before the professional help could arrive, can save lives.
-                This web shall help users to apply the correct first aid according to the scenario and personal symptoms.  </li>
+                <li>Simply by specifying the emergency situation and marking the symptoms visually on this web, users can find the correct first aid treatment before
+                they could get professional help.</li>
             </ul>
             <ul>Functions:
-                <li> The user can choose among the usual emergency cases and whether they want to help others.</li>
+                <li> The web will adjust suggestions based on the emergency situation and whether the user want to self help or to help others.</li>
                 <li> The user can mark the hurt area freely on the human body illustration and document the symptoms.</li>
                 <li> The user will get advices (in video/voice/text form) for what to do before the professional help arrives.</li>
             </ul>
