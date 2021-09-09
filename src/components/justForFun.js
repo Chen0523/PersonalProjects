@@ -15,7 +15,7 @@ const JustForFun = () => {
         <div className ="des">
             <div className = "br">FirstAid for Self-help</div>
             <ul>Goal:
-                <li>Simply by specifying the emergency situation and marking the symptoms visually on this web, users can find the correct first aid treatment before
+                <li>On this web, simply by specifying the emergency situation and marking the symptoms visually, users can find the correct first aid treatment before
                 they could get professional help.</li>
             </ul>
             <ul>Functions:
