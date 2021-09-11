@@ -7,8 +7,10 @@ import Tech from "../img/techtree.png";
 const Current = () => {
 
   return (
-    <div className="current_container">
-        <div className = "img">  <img src={Tech} alt=" Tech tree Illustration"></img></div>
+    <div className="main_container">
+        <div className = "item">
+            <div className = "img">  <img src={Tech} alt=" Tech tree Illustration"></img></div>
+
         <div className ="des">
             <div className = "br">TechTree</div>
             <ul>Status: <li>In development.
@@ -22,9 +24,14 @@ const Current = () => {
                 <li>A website where users can find the overview of the study routine for a certain skill such as web development.
                 Users can also find corresponding </li>
             </ul>
-
         </div>
 
+
+        </div>
+        <div className = "item">
+            <div className = "img">
+            <img src={Coocbooc} alt=" Book with Daly Eggs Illustration"></img>
+        </div>
         <div className ="des">
             <div className = "br">COOCBOOC</div>
             <ul>Status
@@ -38,8 +45,8 @@ const Current = () => {
                 <li>Food bloggers who want to get inspired and reproduce the food in the books/movies.</li>
             </ul>
             <ul >Goal:
-                <li>A website where user can search recipes from a certain book/movie or just get inspired by looking around.
-                    The users can also upload their own recipes after a quick registeration.</li>
+                <li>A website where users can search recipes from a certain book/movie or just get inspired by looking around.
+                    Users can also upload their own recipes after a quick registration.</li>
             </ul>
             <ul >Personal Goal:
             <li> To learn the skills of full-stack web-development.</li>
@@ -49,8 +56,7 @@ const Current = () => {
             Design thinking, Graphic design</li>
             </ul>
         </div>
-        <div className = "img">
-            <img src={Coocbooc} alt=" Book with Daly Eggs Illustration"></img>
+
         </div>
     </div>
   );
