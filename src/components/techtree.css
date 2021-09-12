@@ -1,0 +1,97 @@
+ /*============================================================ Tree =================================================*/
+ .treeWrapper{
+     width:80vw;
+     height :100vh;
+
+ }
+ .tree{
+     margin: 0 10vw;
+     background: #A6A297;
+ }
+ .ttButtons{
+     margin: 60px 0;
+     display: flex;
+     justify-content: space-around;
+ }
+ .ttButtons button{
+     border-radius: 15px;
+     font-size: 18px;
+     padding: 6px 8px;
+     border-style: solid;
+     border-width: 2px;
+     border-color: var(--fgrey);
+     color:var(--fblack);
+     font-family: var(--mainFont);
+
+     background: None;
+ }
+ .ttButtons button:hover{
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+  color: var(--fblack);
+  border-color: var(--fblack);
+
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+ /* custom-tree.css */
+
+.node__done > circle {
+  fill: #EBC85C;
+  fill: #FFAA39;
+    stroke:None;
+    r: 14;
+
+}
+.node__done > text{
+    stroke: var(--fgrey);
+    fill: var(--fgrey);
+    stroke-width:1;
+    font-size: 18px;
+}
+.custom_link {
+    stroke:#777A8890 !important;
+    stroke-width: 2 !important;
+}
+
+.node__branch > circle {
+  fill: #1455C2;
+  /*fill: #BFE4E3;*/
+    stroke: None;
+    r:12;
+}
+
+.node__leaf > circle {
+  fill: #C8DBEE;
+  stroke: None;
+  /* Let's also make the radius of leaf nodes larger */
+}
+
+.node__branch>text{
+    stroke:var(--fblack);
+    fill:var(--fblack);
+    stroke-width:1;
+    font-size: 22px;
+
+
+}
+
+@media (max-width: 700px) {
+  .ttButtons{
+      flex-direction: column;
+  }
+    .ttButtons>*{
+        margin:10px
+    }
+
+    .node__done >text{
+        font-size: 12px;
+    }
+    .node__branch > text{
+        font-size: 14px;
+    }
+}
+

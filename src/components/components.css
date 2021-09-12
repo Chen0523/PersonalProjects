@@ -41,7 +41,7 @@
 
 
 }
-/************************************* Current page **************************************************************/
+/************************************* Main Page **************************************************************/
 
 .main_container{
     display: flex;
@@ -114,36 +114,7 @@
 .bomb img{
     width: 40%;
 }
- /*============================================================ Tree =================================================*/
- .treeWrapper{
-     width:80vw;
-     height :50vh;
 
- }
- .tree{
-     margin: 0 10vw;
-     background: #A6A297;
- }
- /* custom-tree.css */
-
-.node__root > circle {
-  fill: #3D70D4;
-    stroke:None;
-    r: 35;
-
-}
-
-.node__branch > circle {
-  fill: #91BBED;
-    stroke: None;
-    r:30
-}
-
-.node__leaf > circle {
-  fill: #C8DBEE;
-  stroke: None;
-  /* Let's also make the radius of leaf nodes larger */
-}
 
 
  @media (max-width: 1500px) {

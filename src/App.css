@@ -8,7 +8,9 @@
   --mainFont: 'Raleway', sans-serif;
   font-family: 'Raleway', sans-serif;
   --fblack:#050203;
-  --fgrey: #A6A297;
+  /*--fgrey: #A6A297;*/
+  --fgrey: #777A88;
+
   background: #E7E5EA60;
   padding: 0 16vw;
 
@@ -26,8 +28,8 @@
   -webkit-transform: translateY(-2px);
   -ms-transform: translateY(-2px);
   transform: translateY(-2px);
-  color: var(--pblack);
-  border-color: var(--pline);
+  color: var(--fblack);
+  border: None;
 
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
