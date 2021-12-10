@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PersonalProjects/static/css/main.0fb30615.chunk.css",
-    "main.js": "/PersonalProjects/static/js/main.ff20b38b.chunk.js",
-    "main.js.map": "/PersonalProjects/static/js/main.ff20b38b.chunk.js.map",
+    "main.js": "/PersonalProjects/static/js/main.601429ab.chunk.js",
+    "main.js.map": "/PersonalProjects/static/js/main.601429ab.chunk.js.map",
     "runtime-main.js": "/PersonalProjects/static/js/runtime-main.a2c3de4f.js",
     "runtime-main.js.map": "/PersonalProjects/static/js/runtime-main.a2c3de4f.js.map",
     "static/js/2.7ad1d811.chunk.js": "/PersonalProjects/static/js/2.7ad1d811.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/artodoB.4d9a215b.gif": "/PersonalProjects/static/media/artodoB.4d9a215b.gif",
     "static/media/artodoW.35b13216.gif": "/PersonalProjects/static/media/artodoW.35b13216.gif",
     "static/media/coocbooc5.f79b2e2a.png": "/PersonalProjects/static/media/coocbooc5.f79b2e2a.png",
+    "static/media/dice2.67d8e913.png": "/PersonalProjects/static/media/dice2.67d8e913.png",
     "static/media/firstAidFell.c79ed274.gif": "/PersonalProjects/static/media/firstAidFell.c79ed274.gif",
     "static/media/firstaidBurnt.69100ae7.gif": "/PersonalProjects/static/media/firstaidBurnt.69100ae7.gif",
     "static/media/logo.6ce24c58.svg": "/PersonalProjects/static/media/logo.6ce24c58.svg",
@@ -28,6 +29,6 @@
     "static/js/runtime-main.a2c3de4f.js",
     "static/js/2.7ad1d811.chunk.js",
     "static/css/main.0fb30615.chunk.css",
-    "static/js/main.ff20b38b.chunk.js"
+    "static/js/main.601429ab.chunk.js"
   ]
 }
