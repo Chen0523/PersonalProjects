@@ -14,10 +14,11 @@
     margin-top:16px;
     text-align: left;
 }
-.notChosen{
-    font-size:14pt;
-}
 .chosen{
+    font-size:15pt;
+    text-decoration:none;
+}
+.notChosen{
     text-decoration: none;
     color: #96959F;
     font-size:14pt;
@@ -86,7 +87,7 @@
     font-weight: bold;
     margin: 8px 0;
 }
-.double_img{
+.double_img_V{
     width: 50%;
 }
 
@@ -98,13 +99,19 @@
   /* margin-left: 15vw; */
 
 }
+.double_img_H img{
+    position: relative;
+    margin:36px 10% 4px 10%;
+    width: 80%;
+    min-width: 240px;
+}
 
 .des{
     width:45%;
     padding: 0 2.5%;
     /*margin:0px auto 24px auto;*/
 }
- .double_img img{
+ .double_img_V img{
      position: relative;
   width: 40%;
      margin: 16px 16px 0 16px;
@@ -115,7 +122,9 @@
     width: 40%;
 }
 
-
+.route img{
+    width: 60%;
+}
 
  @media (max-width: 1500px) {
   .title {
