@@ -11,24 +11,17 @@ const Current = () => {
     <div className="main_container">
       <div className="item">
         <div className="img">
-          {" "}
           <img src={EmmaReyes} alt=" EmmaReyes Illustration"></img>
         </div>
 
         <div className="des">
           <div className="br">The Book Look</div>
           <ul>
-            Status:{" "}
-            <li>
-              {" "}
-              Building Demo and iterating the idea.
-              {/*Demo can be found <Link className = "linkStyle" to ={"/techTreeDemo"}> Hier -> </Link>*/}
-            </li>
+            Status: <li>Building Demo and iterating the idea.</li>
           </ul>
           <ul>
             Persona:
             <li>
-              {" "}
               People who want to get daily fashion inspiration from their
               beloved books.
             </li>
@@ -36,31 +29,24 @@ const Current = () => {
           <ul>
             Goal:
             <li>
-              A website where users can find the overview of the study routine
-              for a certain skill such as web development. The routine will be
-              personalized depends on the goals and constrains of the user. The
-              web is also going to show the knowledge points that are covered in
-              the popular online courses.{" "}
+              Illustrations that provide daily outfits inspired by books. Key
+              elements like color palettes, textures, and cultural vibes from
+              the book will add a subtle artistic touch to the outfits, which
+              provides a unique contemporay daily fashion signature.
             </li>
           </ul>
         </div>
       </div>
       <div className="item">
         <div className="double_img_H">
-          {" "}
-          <img src={AiicePNG} alt=" Tech tree Illustration"></img>
-          <img src={Aiice} alt=" Tech tree Illustration"></img>
+          <img src={AiicePNG} alt=" Alice Illustration"></img>
+          <img src={Aiice} alt=" alice Illustration"></img>
         </div>
 
         <div className="des">
           <div className="br">AIice in Labelland</div>
           <ul>
-            Status:{" "}
-            <li>
-              {" "}
-              In Development.
-              {/*Demo can be found <Link className = "linkStyle" to ={"/techTreeDemo"}> Hier -> </Link>*/}
-            </li>
+            Status: <li>In Development.</li>
           </ul>
           <ul>
             Description:
