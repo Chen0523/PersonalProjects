@@ -12,11 +12,11 @@ const Current = () => {
       <div className="item">
         <div className="img">
           {" "}
-          <img src={Tech} alt=" Tech tree Illustration"></img>
+          <img src={EmmaReyes} alt=" EmmaReyes Illustration"></img>
         </div>
 
         <div className="des">
-          <div className="br">TechTree</div>
+          <div className="br">The Book Look</div>
           <ul>
             Status:{" "}
             <li>
@@ -31,11 +31,6 @@ const Current = () => {
               {" "}
               People who want to get daily fashion inspiration from their
               beloved books.
-            </li>
-            <li>
-              {" "}
-              Young professionals who want to visualize their skills as a
-              tech-tree.
             </li>
           </ul>
           <ul>
