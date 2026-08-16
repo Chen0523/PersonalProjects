@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/PersonalProjects/static/css/main.909afba2.chunk.css",
-    "main.js": "/PersonalProjects/static/js/main.94ad985b.chunk.js",
-    "main.js.map": "/PersonalProjects/static/js/main.94ad985b.chunk.js.map",
-    "runtime-main.js": "/PersonalProjects/static/js/runtime-main.54c120ed.js",
-    "runtime-main.js.map": "/PersonalProjects/static/js/runtime-main.54c120ed.js.map",
-    "static/js/2.2feb786a.chunk.js": "/PersonalProjects/static/js/2.2feb786a.chunk.js",
-    "static/js/2.2feb786a.chunk.js.map": "/PersonalProjects/static/js/2.2feb786a.chunk.js.map",
-    "static/js/3.bc53d935.chunk.js": "/PersonalProjects/static/js/3.bc53d935.chunk.js",
-    "static/js/3.bc53d935.chunk.js.map": "/PersonalProjects/static/js/3.bc53d935.chunk.js.map",
+    "main.css": "/PersonalProjects/static/css/main.1c1b1b62.chunk.css",
+    "main.js": "/PersonalProjects/static/js/main.8d9b4726.chunk.js",
+    "main.js.map": "/PersonalProjects/static/js/main.8d9b4726.chunk.js.map",
+    "runtime-main.js": "/PersonalProjects/static/js/runtime-main.79831d44.js",
+    "runtime-main.js.map": "/PersonalProjects/static/js/runtime-main.79831d44.js.map",
+    "static/js/2.01791a26.chunk.js": "/PersonalProjects/static/js/2.01791a26.chunk.js",
+    "static/js/2.01791a26.chunk.js.map": "/PersonalProjects/static/js/2.01791a26.chunk.js.map",
+    "static/js/3.7fa3ec55.chunk.js": "/PersonalProjects/static/js/3.7fa3ec55.chunk.js",
+    "static/js/3.7fa3ec55.chunk.js.map": "/PersonalProjects/static/js/3.7fa3ec55.chunk.js.map",
     "index.html": "/PersonalProjects/index.html",
-    "static/css/main.909afba2.chunk.css.map": "/PersonalProjects/static/css/main.909afba2.chunk.css.map",
-    "static/js/2.2feb786a.chunk.js.LICENSE.txt": "/PersonalProjects/static/js/2.2feb786a.chunk.js.LICENSE.txt",
+    "static/css/main.1c1b1b62.chunk.css.map": "/PersonalProjects/static/css/main.1c1b1b62.chunk.css.map",
+    "static/js/2.01791a26.chunk.js.LICENSE.txt": "/PersonalProjects/static/js/2.01791a26.chunk.js.LICENSE.txt",
     "static/media/AIICE.9373916e.gif": "/PersonalProjects/static/media/AIICE.9373916e.gif",
     "static/media/EmmaReyes.cd8c19e4.png": "/PersonalProjects/static/media/EmmaReyes.cd8c19e4.png",
-    "static/media/JourneyToWest.707b3d54.png": "/PersonalProjects/static/media/JourneyToWest.707b3d54.png",
-    "static/media/Poisonwood.8d9f9199.png": "/PersonalProjects/static/media/Poisonwood.8d9f9199.png",
-    "static/media/TheOldCapital.b63b2475.png": "/PersonalProjects/static/media/TheOldCapital.b63b2475.png",
     "static/media/aiice.019ed02a.png": "/PersonalProjects/static/media/aiice.019ed02a.png",
     "static/media/artodoB.4d9a215b.gif": "/PersonalProjects/static/media/artodoB.4d9a215b.gif",
     "static/media/artodoW.35b13216.gif": "/PersonalProjects/static/media/artodoW.35b13216.gif",
@@ -27,12 +24,13 @@
     "static/media/firstaidBurnt.69100ae7.gif": "/PersonalProjects/static/media/firstaidBurnt.69100ae7.gif",
     "static/media/logo.6ce24c58.svg": "/PersonalProjects/static/media/logo.6ce24c58.svg",
     "static/media/robot.7d7f5736.gif": "/PersonalProjects/static/media/robot.7d7f5736.gif",
-    "static/media/route.c87bef93.gif": "/PersonalProjects/static/media/route.c87bef93.gif"
+    "static/media/route.c87bef93.gif": "/PersonalProjects/static/media/route.c87bef93.gif",
+    "static/media/sketch.8d368aa3.png": "/PersonalProjects/static/media/sketch.8d368aa3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.54c120ed.js",
-    "static/js/2.2feb786a.chunk.js",
-    "static/css/main.909afba2.chunk.css",
-    "static/js/main.94ad985b.chunk.js"
+    "static/js/runtime-main.79831d44.js",
+    "static/js/2.01791a26.chunk.js",
+    "static/css/main.1c1b1b62.chunk.css",
+    "static/js/main.8d9b4726.chunk.js"
   ]
 }
